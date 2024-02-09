@@ -35,7 +35,7 @@
     "organization": false
   },
   "devDependencies": {
-    "@types/jest": "^29.5.11",
+    "@types/jest": "^29.5.12",
     "@types/node": "^18",
     "@typescript-eslint/eslint-plugin": "^6",
     "@typescript-eslint/parser": "^6",
@@ -48,10 +48,10 @@
     "jest-junit": "^15",
     "jsii": "~5.0.0",
     "jsii-diff": "^1.94.0",
-    "jsii-docgen": "^10.3.9",
+    "jsii-docgen": "^10.3.16",
     "jsii-pacmak": "^1.94.0",
     "jsii-rosetta": "~5.0.0",
-    "projen": "^0.79.3",
+    "projen": "^0.79.9",
     "standard-version": "^9",
     "ts-jest": "^29.1.2",
     "ts-node": "^10.9.2",
