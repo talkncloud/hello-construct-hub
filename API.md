@@ -1098,7 +1098,7 @@ const bucketProps: BucketProps = { ... }
 | <code><a href="#hello-construct-hub.BucketProps.property.websiteIndexDocument">websiteIndexDocument</a></code> | <code>string</code> | The name of the index document (e.g. "index.html") for the website. Enables static website hosting for this bucket. |
 | <code><a href="#hello-construct-hub.BucketProps.property.websiteRedirect">websiteRedirect</a></code> | <code>aws-cdk-lib.aws_s3.RedirectTarget</code> | Specifies the redirect behavior of all requests to a website endpoint of a bucket. |
 | <code><a href="#hello-construct-hub.BucketProps.property.websiteRoutingRules">websiteRoutingRules</a></code> | <code>aws-cdk-lib.aws_s3.RoutingRule[]</code> | Rules that define when a redirect is applied and the redirect behavior. |
-| <code><a href="#hello-construct-hub.BucketProps.property.name">name</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#hello-construct-hub.BucketProps.property.name">name</a></code> | <code>string</code> | The name of the bucket. |
 
 ---
 
@@ -1444,6 +1444,10 @@ public readonly name: string;
 ```
 
 - *Type:* string
+
+The name of the bucket.
+
+This will be prefixed to the pattern name-region-accountid.
 
 ---
 
