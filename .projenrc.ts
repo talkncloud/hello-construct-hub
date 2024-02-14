@@ -8,10 +8,7 @@ const project = new awscdk.AwsCdkConstructLibrary({
   name: 'hello-construct-hub',
   projenrcTs: true,
   repositoryUrl: 'https://github.com/talkncloud/hello-construct-hub.git',
-  description: 'Hello world example for construct hub using CDK.',
-
-  // deps: [],                /* Runtime dependencies of this module. */
-  // devDeps: [],             /* Build dependencies for this module. */
-  // packageName: undefined,  /* The "name" in package.json. */
+  description:
+    'Hello world example for construct hub using CDK with documented guide at https://www.talkncloud.com/wtf-is-construct-hub/',
 });
 project.synth();
