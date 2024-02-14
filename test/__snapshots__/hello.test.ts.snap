@@ -236,7 +236,7 @@ exports[`PrivateBucket should match snapshot 1`] = `
           },
         ],
         "SourceObjectKeys": [
-          "a70476c39d94f7fc148fe6d2607086c9f9ea42257139fdc6c10adb33a4a9c15e.zip",
+          "4053eec3ab808ee71a86883b1cbe329c0d5b2de0cf2c2fcd32e548bc42a0cebe.zip",
         ],
       },
       "Type": "Custom::CDKBucketDeployment",

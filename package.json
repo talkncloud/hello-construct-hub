@@ -1,6 +1,6 @@
 {
   "name": "hello-construct-hub",
-  "description": "Hello world example for construct hub using CDK.",
+  "description": "Hello world example for construct hub using CDK with documented guide at https://www.talkncloud.com/wtf-is-construct-hub/",
   "repository": {
     "type": "git",
     "url": "https://github.com/talkncloud/hello-construct-hub.git"
